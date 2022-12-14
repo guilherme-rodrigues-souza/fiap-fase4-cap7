@@ -1,58 +1,18 @@
 * {
-    font-family: 'Inter' !important;
+    font-family: 'Montserrat' !important;
     font-size: small;
     text-decoration: none !important;
     border: none !important;
     box-sizing: border-box;
 }
 
-.meus-cartoes, .resumo-receitas-despesas {
-    padding-left: 80px !important;
-    padding-right: 80px !important;
-}
-
-.image-background-money {
-    background-image: url(home-image.png);
-    height: 100vh;
-    width: 100vw;
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.name-myCash {
-    color: #582CD9;
-}
-
-.form-background-blue-violet {
-    background-color: #582CD9;
-    padding: 30px;
-    margin: 0 auto;
-}
-
-.btn-entrar-orange {
-    background-color: #FD7A3C !important;
-}
-
-.btn-entrar-orange:hover {
-    opacity: 90% !important;
-}
-
-a:hover {
-    text-decoration: underline !important;
-}
-
-.border-bottom-blueviolet {
-    border-bottom: solid 2px #582CD9 !important;
-    border-radius: 0px;
-}
-
 .donut-chart {
     position: relative;
     width: 200px;
     height: 200px;
-    margin: 0 auto 2rem;
+    margin: 5rem auto;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%
  }
 p.center {
@@ -82,7 +42,6 @@ p.center {
     height: 100%;
     position: absolute;
     width: 100%;
-    font-family: monospace;
     font-size: 1.5rem;
 }
 	
@@ -92,7 +51,7 @@ p.center {
 }
 
 #part1 .circle {
-	background-color: #F86F34;
+	background-color: green;
 	animation: first 1s 1 forwards;
 }
 	
@@ -112,7 +71,16 @@ p.center {
 
 #part3 .circle {
 	background-color: #FFB731;
-	animation: third 0.5s 1 forwards 2s;
+	animation: third 1s 1 forwards 2s;
+}
+
+#part4 {
+    transform: rotate(280deg);
+}
+
+#part4 .circle {
+	background-color: red;
+	animation: fourth 1s 1 forwards 2.8s;
 }
 	
 @keyframes first {
@@ -127,5 +95,10 @@ p.center {
 	
 @keyframes third {
     from {transform: rotate(0deg);}
-    to {transform: rotate(111deg);}
+    to {transform: rotate(30deg);}
+}
+
+@keyframes fourth {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(80deg);}
 }

@@ -1,9 +1,7 @@
 * {
-    font-family: 'Montserrat' !important;
+    font-family: 'Montserrat';
     font-size: small;
     text-decoration: none !important;
-    border: none !important;
-    box-sizing: border-box;
 }
 
 .donut-chart {

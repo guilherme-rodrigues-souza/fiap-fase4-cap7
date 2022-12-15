@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon\safira-without-background.png" type="image/icon type" sizes="16x16">
+    <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="css\style.css">
+    <title>SafiraCash</title>
+</head>
+<body class="bg-dark text-light">
+    <!-- Logo SafiraCash -->
+    <div class="row align-items-center justify-content-center vh-100 vw-100 p-5">
+        <div class="col-md-3 text-center">
+            <img src="images\safira-logo.png" alt="" srcset="" class="mb-3" width="32px" height="32px">
+            <span class="fs-3 fw-bold ps-2">SafiraCash</span>
+        </div>
+        <div class="col-md-4">
+            <!-- Form -->
+            <form action="dashboard.html">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="idSafiraCash" placeholder="Enter email" name="email">
+                    <label for="idSafiraCash" class="text-dark">ID SafiraCash</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="senha" placeholder="Enter email" name="email">
+                    <label for="senha" class="text-dark">Senha</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Lembrar ID SafiraCash</label>
+                </div>
+                <input type="submit" class="btn btn-primary w-100" value="Entrar">
+            </form>
+            <hr>
+            <!-- Primeiro acesso e Esqueci minha senha -->
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Primeiro acesso</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Esqueci minha senha</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
